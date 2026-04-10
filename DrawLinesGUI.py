@@ -16,19 +16,19 @@ class DrawLinesGUI(tk.Frame):
         self.image_uploader = image_uploader
 
         # Create entry forms and labels
-        self.min_label = tk.Label(self, text="Min rock width:")
+        self.min_label = tk.Label(self, text="Min rock thickness:")
         self.min_label.grid(row=0, column=0, padx=10, pady=5, sticky="e")
         self.min_entry = tk.Entry(self)
         self.min_entry.insert(0, "0")
         self.min_entry.grid(row=0, column=1, padx=10, pady=5)
 
-        self.max_label = tk.Label(self, text="Max rock width:")
+        self.max_label = tk.Label(self, text="Max rock thickness:")
         self.max_label.grid(row=1, column=0, padx=10, pady=5, sticky="e")
         self.max_entry = tk.Entry(self)
         self.max_entry.insert(0, "100")
         self.max_entry.grid(row=1, column=1, padx=10, pady=5)
 
-        self.diff_label = tk.Label(self, text="Minimum difference between widths:")
+        self.diff_label = tk.Label(self, text="Minimum difference between thicknesses:")
         self.diff_label.grid(row=2, column=0, padx=10, pady=5, sticky="e")
         self.diff_entry = tk.Entry(self)
         self.diff_entry.insert(0, "5")

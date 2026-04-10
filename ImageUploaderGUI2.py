@@ -61,7 +61,7 @@ class ImageUploaderGUI:
         self.auto_draw_button.grid(row=2, column=1, padx=10, pady=10)
 
         self.scale_actual_width_label = tk.Label(
-            master, text="Enter Scale Actual Width:"
+            master, text="Enter Scale Actual Thickness:"
         )
         self.scale_actual_width_label.grid(row=3, column=0, padx=10, pady=5, sticky="e")
 
